@@ -378,7 +378,7 @@ function invertCase(str) {
   return str
     .split('')
     .map((char) => {
-      if (char === char.toUpperCase()) return char.toLocaleLowerCase();
+      if (char === char.toUpperCase()) return char.toLowerCase();
       return char.toUpperCase();
     })
     .join('');

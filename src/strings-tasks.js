@@ -325,7 +325,7 @@ function countVowels(str) {
 function isPalindrome(str) {
   let tmpStr = str;
   tmpStr = tmpStr.replaceAll(/[^a-zA-Z]/g, '').toLowerCase();
-  return tmpStr.split('').reverse.join('') === tmpStr;
+  return tmpStr.split('').reverse().join('') === tmpStr;
 }
 
 /**

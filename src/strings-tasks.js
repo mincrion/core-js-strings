@@ -446,7 +446,7 @@ function unbracketTag(str) {
  *   'info@gmail.com' => ['info@gmail.com']
  */
 function extractEmails(str) {
-  return str.slice(';');
+  return str.split(';');
 }
 
 /**
